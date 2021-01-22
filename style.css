@@ -1,0 +1,108 @@
+body {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color:rgb(235, 235, 235);
+}
+
+a, h1, h2, h3, p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(172, 167, 167);
+}
+
+h3{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0px;
+    color: rgb(172, 167, 167);
+}
+
+main h1 {
+    color: rgb(221, 85,85);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+
+
+main a{
+    text-decoration: none;
+    background-color:rgb(221, 85,85);
+    text-align: center;
+    border-radius: 5px;
+    max-width: 130px;
+    color: white;
+    padding: 10px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main p{
+    font-weight: 400;
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgb(172, 167, 167);
+}
+
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding-left: 0;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(172, 167, 167);
+}
+
+.card {
+    display: block;
+    max-width: 455px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#Photo {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    border: rgb(172, 167, 167)E 2px solid;
+}
+
+.movies img{
+    max-width: 80px;
+}
+
+.movies td{
+    padding: 20px 10px;
+}
+
+.movies p{
+    font-weight: 400;
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color:rgb(172, 167, 167);
+}
